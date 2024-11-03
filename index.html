@@ -1,36 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Article preview component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+  <!-- Fontawesome icons -->
+  <script src="https://kit.fontawesome.com/d66d421276.js" crossorigin="anonymous"></script>
+
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Javascript -->
+  <script src="/js/main.js" defer></script>
 </head>
+
 <body>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+  <main>
+    <div class="container">
+      <div class="article-card">
+        <div class="article-card__image">
+          <img src="/images/drawers.jpg" alt="Article image">
+        </div>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+        <div class="article-card__wrapper">
+          <article class="article-card__content">
+            <h2 class="title">Shift the overall look and feel by adding these wonderful
+              touches to furniture in your home</h2>
+            <p class="summary">Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I’ve got some simple tips
+              to help you make any room feel complete.</p>
+          </article>
 
-  Michelle Appleton
-  28 Jun 2020
+          <div class="article-card__author">
+            <div class="author">
+              <div class="author__profile">
+                <div class="avatar">
+                  <img src="/images/avatar-michelle.jpg" alt="User avatar">
+                </div>
+                <div class="info">
+                  <p class="name">Michelle Appleton</p>
+                  <p class="date">28 Jun 2020</p>
+                </div>
+              </div>
+              <div class="author__share">
+                <button class="share-btn" id="share-btn">
+                  <i class="fa-solid fa-share"></i>
+                </button>
+              </div>
+            </div>
 
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+            <div class="share-links" id="share-links">
+              <div class="share-links__icons">
+                <p>SHARE</p>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/SergioCasCeb">Sergio Eduardo Castro Ceballos</a>.
+      </p>
+    </div>
+  </footer>
 </body>
+
 </html>
