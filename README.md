@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-article-component-with-scss-and-js-Zx-OV_dYZX)
+- Live Site URL: [Netlify](https://fm-article-component-challenge-sergio.netlify.app/)
 
 ## My process
 
